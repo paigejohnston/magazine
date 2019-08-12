@@ -3,6 +3,7 @@ $(function() {
     // Toggle bg colour on and off
     $('.js-sm-colour').on('click', function (e) {
       e.preventDefault();
+      console.log('colour clicked');
       $('body').toggleClass('sm-colour--on');
     })
 
